@@ -20,7 +20,9 @@ const ShowTask = ({tasklist , setTasklist , task , setTask}) => {
                     <span className='title'>Todo</span>
                     <span className='count'>{tasklist.length}</span>
                 </div>
-                <button className='clearAll' onClick={() => setTasklist([])}>Clear All</button>
+                {   tasklist.length > 0 && 
+                    <button className='clearAll' onClick={() => setTasklist([])}>Clear All</button>
+                }
             </div>
             <ul>
                 { tasklist.map((todo) => (
