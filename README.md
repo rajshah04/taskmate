@@ -1,6 +1,8 @@
 # Deployed Link :-
 https://taskmate-rajshah04.netlify.app/
 
+A todo app which marks, deletes as well as unmarks your tasks.
+
 ---
 # Getting Started with Create React App
 
